@@ -1,0 +1,4 @@
+.vscode
+.mypy_cache
+get-pip.py.1
+redis_modules.pyc
