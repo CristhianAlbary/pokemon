@@ -29,3 +29,11 @@ worker$ python redis_worker.py
 master$ python redis_master.py
 ```
 
+############################# Ideias ###########################
+
+Conferir os resultados do json para chegamos a um resultados mais enxuto.
+
+Entrada de dados do usário para interação com sistema.
+
+    Pedir para o usuário passar o nome do pokemon para fazer a pesquisa.
+
