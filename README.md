@@ -29,6 +29,8 @@ worker$ python redis_worker.py
 master$ python redis_master.py
 ```
 
+$ pip install requests
+
 ############################# Ideias ###########################
 
 Conferir os resultados do json para chegamos a um resultados mais enxuto.
