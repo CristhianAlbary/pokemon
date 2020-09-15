@@ -9,9 +9,6 @@ if __name__ == "__main__":
   redis_conn = Redis(host='127.0.0.1',port=6379)
   queue_jobs = Queue('busca', connection=redis_conn)
   jobs = []
-  # for i in range(20):
-  #   job = queue_jobs.enqueue(get_pokemon, pokemons[i])
-  #   jobs.append(job)
 
   pokemons = []
   print("Digite os nomes de pokemons que dever ser consultados na api.")
